@@ -1,91 +1,107 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="module3_solution/css/style.css/https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <title>Assignment Solution for Module 3</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+	
+	<title>Module 3 Solution</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand" href="#">Food,LLC</a>
-        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0  d-block d-sm-none text-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Chicken<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Beef</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Shusi</a>
-                </li>
-            </ul>
+    <header class="nav-header">
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <p class="nav-brand">Food, LLC</p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#hilsha-div"><p class="item">Hilsa/Ilish curry</p></a>
+              <hr class="visible-xs">
+            </li>            
+            <li class="text-center biryani-item">
+              <a href="#biryani-div"><p class="item">Biryani</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center chingri-item">
+              <a href="#chingri-div"><p class="item">Changri malai curry</p></a>
+            </li>
+          </ul> 
+        </div>
+      </div>
     </nav>
+  	</header>
 
+	<h1 class="text-center">Our Menu</h1>
 
-    <h2 class="text-center">Our Menu</h2>
-    <div class="container mt-4">
+	<div class="row container container-fluid">
+	<div class="col-md-12 col-sm-12 col-xs-12" id="hilsha-div">
+		<section>
+		<div id="hilsha">
+			Hilsa/Ilish curry
+		</div>
+		<p>
+			Hilsa (or ilish) curry is the national dish of Bangladesh, made from the Hilsa fish, and is one of the most popular traditional Bangladeshi dishes.
 
-        <div class="row bg-info">
-            <div class="col-xs-12 ">
+			The Hilsa fish is marinated in turmeric and chili paste, before slowly frying on a low heat and serving with a mustard gravy and rice. The result is a combination of sweet and sour flavours with an incredible spicy kick.
 
-                <h5 class="text-center">Chicken</h5>
+			Aside from being cheap, Hilsa curry is filling, flavoursome, easy to make and widely available due to the amount of Hilsa fish in the region, especially during rainy season. The sheer abundance of the Hilsa fish is why Hilsa Curry is the national dish of Bangladesh.
 
-                <p class="text-justify p-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit fugiat doloribus minima, voluptatum mollitia obcaecati dolor totam quam cum dolorum tenetur, iure libero veritatis quo modi numquam porro? Quis? Lorem ipsum, dolor
-                    sit amet consectetur adipisicing elit. Officia saepe laudantium esse excepturi aspernatur expedita voluptates nobis ab maiores doloremque tempora a quia iste beatae enim blanditiis, magni iusto quam? Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit. Veniam, quis doloribus eius eligendi repudiandae molestiae sapiente temporibus quaerat porro accusantium rerum aliquid, quas et, maxime adipisci minima? Incidunt, est corporis.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-4 ">
+			In Bangladesh it is common to eat every part of the Hilsa fish including the head and the eggs, nothing is wasted and each part even has its own unique delicacies. You can find fish egg dishes or fish head curries that are widely revered throughout the region.
+		</p>
+		</section>
+	</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="biryani-div">
+		<section>
+		<div id="biryani">
+			Biryani
+		</div>
+		<p>
+			Biryani, whilst not unique to Bangladesh, is a spicy rice dish made with meat or fish, rice, potatoes and spices.
 
-        <div class="row bg-secondary">
-            <div class="col-xs-12" S>
-                <h5 class="text-center">Beef</h5>
+			Hugely popular throughout the Indian subcontinent, Bangladeshi biryani is often considered the best in the world.
 
-                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit fugiat doloribus minima, voluptatum mollitia obcaecati dolor totam quam cum dolorum tenetur, iure libero veritatis quo modi numquam porro? Quis? Lorem ipsum, dolor
-                    sit amet consectetur adipisicing elit. Officia saepe laudantium esse excepturi aspernatur expedita voluptates nobis ab maiores doloremque tempora a quia iste beatae enim blanditiis, magni iusto quam? Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit. Veniam, quis doloribus eius eligendi repudiandae molestiae sapiente temporibus quaerat porro accusantium rerum aliquid, quas et, maxime adipisci minima? Incidunt, est corporis.
-                </p>
-            </div>
-        </div>
-    </div>
+			In the Bengali region, popular meats include mutton, goat, chicken and beef, but there is such a wide variety of biryani dishes available that you can try.
 
-    <div class="container mt-4 ">
+			A true traditional biryani involves different types of cooking and preparation, as marinated meat is layered with rice, potatoes and spices, the dish is jam packed with flavour.
 
-        <div class="row bg-success">
-            <div class="col-xs-12" S>
-                <h5 class="text-center">Shusi</h5>
+			You will often find biryani served at special occasions or celebrations such as weddings, but it is also eaten as a regular meal throughout the weak, such is its popularity.
+		</p>
+		</section>
+	</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="chingri-div">
+		<section>
+		<div id="chingri">
+			Changri malai curry
+		</div>
+		<p>
+			Changri malai curry is the most famous Bangladesh curry dish based on coconut milk, and is revered throughout the region, including India.
 
-                <p class="text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit fugiat doloribus minima, voluptatum mollitia obcaecati dolor totam quam cum dolorum tenetur, iure libero veritatis quo modi numquam porro? Quis? Lorem ipsum, dolor
-                    sit amet consectetur adipisicing elit. Officia saepe laudantium esse excepturi aspernatur expedita voluptates nobis ab maiores doloremque tempora a quia iste beatae enim blanditiis, magni iusto quam? Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit. Veniam, quis doloribus eius eligendi repudiandae molestiae sapiente temporibus quaerat porro accusantium rerum aliquid, quas et, maxime adipisci minima? Incidunt, est corporis.
-                </p>
-            </div>
-        </div>
-    </div>
+			Chingri Malai (or Chingri Macher Malaikari as it is sometimes known), is a delicious creamy, satisfying seafood curry that is prepared by cooking prawns or shrimp in a coconut milk sauce with aromatic spices and served with basmati rice. Coconut milk is a very common ingredient in Bangladeshi cuisine, and this Changri Malai curry is a perfect example of that.
 
+			The word Malai suggests the dish was actually brought to the region by Malaysian sailors docking at the Bay of Bengal many years ago, and the use of coconut in curries gives credence to this theory since it is popular in South-East Asian cuisine.
 
+			Bangladeshi cooking is famed for its use of seafood and fish in curries, so Chingri malai is definitely a dish to try if you’re ever in the region.
+		</p>
+		</section>
+	</div>
+	</div>
 
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/script.js"></script>
 </body>
-
 </html>
