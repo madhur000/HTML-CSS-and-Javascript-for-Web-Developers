@@ -7,4 +7,4 @@
 
 <h3>Week #3 Coding Assignment Solution</h3>
 <p>Description :https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md</p>
-<p>Solution Link :https://github.com/madhur000/HTML-CSS-and-Javascript-for-Web-Developers/tree/master/module3_solution</p>
+<p>Solution Link :https://github.com/madhur000/HTML-CSS-and-Javascript-for-Web-Developers/tree/master/module3-solution</p>
